@@ -1,0 +1,30 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{DispositivoInteligente}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Interfaz sobrecargada que asume que todo dispositivo hace de todo.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{encender}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{pass}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{reproducir\PYGZus{}musica}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{pass}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{ajustar\PYGZus{}temperatura}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{grados}\PYG{p}{):}
+        \PYG{k}{pass}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{BocinaBluetooth}\PYG{p}{(}\PYG{n}{DispositivoInteligente}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Solo reproduce sonido, pero se ve forzada a cargar con métodos de clima.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{encender}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Bocina encendida y vinculada.\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{reproducir\PYGZus{}musica}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Reproduciendo playlist en Spotify...\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{ajustar\PYGZus{}temperatura}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{grados}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Viola el Principio I: una bocina no regula clima,}
+        \PYG{c+c1}{\PYGZsh{} pero está obligada a implementarlo para cumplir con la clase padre.}
+        \PYG{k}{pass}
+
+\end{MintedVerbatim}

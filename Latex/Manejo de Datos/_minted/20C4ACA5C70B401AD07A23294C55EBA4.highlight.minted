@@ -1,0 +1,17 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{Factura}\PYG{p}{:}
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{monto} \PYG{o}{=} \PYG{n}{monto}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular\PYGZus{}total}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Calcula impuestos y total}
+        \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{1.16}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{guardar\PYGZus{}en\PYGZus{}base\PYGZus{}datos}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Conecta a SQL y guarda la factura}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Guardando factura en la base de datos...\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{enviar\PYGZus{}correo}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Configura el servidor SMTP y envía el correo}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Enviando correo al cliente...\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

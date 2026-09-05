@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{n}{tasa\PYGZus{}cambio} \PYG{o}{=} \PYG{l+m+mf}{21.13}
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{factor\PYGZus{}calculo}\PYG{p}{:}
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{obtenerValor}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{edad\PYGZus{}actual}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{edad\PYGZus{}actual} \PYG{o}{*} \PYG{l+m+mf}{1.5}
+
+\end{MintedVerbatim}

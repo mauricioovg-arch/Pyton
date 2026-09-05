@@ -1,0 +1,14 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{CalculadoraDescuento}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Calcula el descuento aplicable según el tipo de cliente.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular\PYGZus{}descuento}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{tipo\PYGZus{}cliente}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n}{tipo\PYGZus{}cliente} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}Regular\PYGZdq{}}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{0.05}
+        \PYG{k}{elif} \PYG{n}{tipo\PYGZus{}cliente} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}Premium\PYGZdq{}}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{0.15}
+        \PYG{k}{elif} \PYG{n}{tipo\PYGZus{}cliente} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}Estudiante\PYGZdq{}}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{0.20}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{l+m+mf}{0.0}
+\end{MintedVerbatim}

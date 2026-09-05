@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{n}{resultado} \PYG{o}{=} \PYG{n}{registrar\PYGZus{}asegurado}\PYG{p}{(}
+    \PYG{n}{nombre\PYGZus{}cliente}\PYG{p}{,}
+    \PYG{n}{edad\PYGZus{}cliente}\PYG{p}{,}
+    \PYG{n}{factor\PYGZus{}riesgo}\PYG{p}{,}
+    \PYG{n}{suma\PYGZus{}asegurada\PYGZus{}mxn}\PYG{p}{,}
+    \PYG{n}{fecha\PYGZus{}emision\PYGZus{}poliza}\PYG{p}{,}
+\PYG{p}{)}
+\end{MintedVerbatim}

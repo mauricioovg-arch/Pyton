@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Módulo de cálculo de primas.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{math}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{os}
+
+\PYG{n}{\PYGZus{}\PYGZus{}all\PYGZus{}\PYGZus{}} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}CalculadoraPrima\PYGZdq{}}\PYG{p}{]}
+\PYG{n}{\PYGZus{}\PYGZus{}author\PYGZus{}\PYGZus{}} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Melissa García\PYGZdq{}}
+\PYG{n}{\PYGZus{}\PYGZus{}version\PYGZus{}\PYGZus{}} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}1.0.0\PYGZdq{}}
+\end{MintedVerbatim}

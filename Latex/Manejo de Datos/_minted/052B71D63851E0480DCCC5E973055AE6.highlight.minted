@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{Poliza}\PYG{p}{:}
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{monto} \PYG{o}{=} \PYG{n}{monto}
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{procesar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{1.10}
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{ejecutar}\PYG{p}{():}
+    \PYG{n}{p} \PYG{o}{=} \PYG{n}{Poliza}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{)}
+\end{MintedVerbatim}

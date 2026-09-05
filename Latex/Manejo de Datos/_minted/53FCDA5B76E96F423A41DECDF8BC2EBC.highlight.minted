@@ -1,0 +1,34 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{CanalNotificacion}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Acuerdo o base común para cualquier medio de envío.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{enviar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{mensaje}\PYG{p}{):}
+        \PYG{k}{pass}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{ServicioSMS}\PYG{p}{(}\PYG{n}{CanalNotificacion}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Implementación concreta mediante SMS.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{enviar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{mensaje}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Enviando SMS al teléfono: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{mensaje}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{ServicioEmail}\PYG{p}{(}\PYG{n}{CanalNotificacion}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Implementación concreta mediante correo electrónico.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{enviar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{mensaje}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Enviando correo al buzón: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{mensaje}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{GestorNotificaciones}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Módulo de alto nivel desacoplado de las herramientas concretas.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{canal}\PYG{p}{:} \PYG{n}{CanalNotificacion}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Inyección de dependencia: recibe el canal desde afuera}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{canal} \PYG{o}{=} \PYG{n}{canal}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{notificar\PYGZus{}usuario}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{texto}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{canal}\PYG{o}{.}\PYG{n}{enviar}\PYG{p}{(}\PYG{n}{texto}\PYG{p}{)}
+
+\end{MintedVerbatim}

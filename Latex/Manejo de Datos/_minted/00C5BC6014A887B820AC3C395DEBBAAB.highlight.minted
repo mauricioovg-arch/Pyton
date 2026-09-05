@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{cotizar\PYGZus{}prima}\PYG{p}{(}\PYG{n}{monto}\PYG{p}{,} \PYG{n}{factor}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Calcula la prima anual de la póliza de seguro.}
+
+\PYG{l+s+sd}{    Multiplica la suma asegurada por el factor actuarial de edad}
+\PYG{l+s+sd}{    y divide el resultado entre mil según la fórmula oficial.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{p}{(}\PYG{n}{monto} \PYG{o}{*} \PYG{n}{factor}\PYG{p}{)} \PYG{o}{/} \PYG{l+m+mi}{1000}
+
+\end{MintedVerbatim}

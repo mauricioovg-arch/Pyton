@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{c+c1}{\PYGZsh{} Convención uniforme y sin caracteres de escape innecesarios}
+\PYG{n}{mensaje\PYGZus{}uno} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Bienvenido a la aseguradora\PYGZsq{}}
+\PYG{n}{mensaje\PYGZus{}dos} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Procesando cálculo de póliza\PYGZsq{}}
+\PYG{n}{mensaje\PYGZus{}tres} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}El asegurado respondió: \PYGZsq{}Si\PYGZsq{} a la pregunta\PYGZdq{}}
+
+\end{MintedVerbatim}

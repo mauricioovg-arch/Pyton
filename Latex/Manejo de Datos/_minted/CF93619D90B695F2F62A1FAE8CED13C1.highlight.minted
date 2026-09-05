@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{c+c1}{\PYGZsh{} Inconsistencia de estilo y uso evitable de escape \PYGZbs{}\PYGZsq{}}
+\PYG{n}{mensaje\PYGZus{}uno} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Bienvenido a la aseguradora\PYGZsq{}}
+\PYG{n}{mensaje\PYGZus{}dos} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Procesando cálculo de póliza\PYGZdq{}}
+\PYG{n}{mensaje\PYGZus{}tres} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}El asegurado respondió: }\PYG{l+s+se}{\PYGZbs{}\PYGZsq{}}\PYG{l+s+s1}{Si}\PYG{l+s+se}{\PYGZbs{}\PYGZsq{}}\PYG{l+s+s1}{ a la pregunta\PYGZsq{}}
+
+\end{MintedVerbatim}

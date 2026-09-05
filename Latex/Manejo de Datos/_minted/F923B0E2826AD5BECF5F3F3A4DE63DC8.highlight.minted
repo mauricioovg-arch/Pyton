@@ -1,0 +1,36 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{Descuento}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Clase base de la que heredan todos los descuentos.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{k}{return} \PYG{l+m+mf}{0.0}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{DescuentoRegular}\PYG{p}{(}\PYG{n}{Descuento}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Aplica el 5\PYGZpc{} de descuento.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{0.05}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{DescuentoPremium}\PYG{p}{(}\PYG{n}{Descuento}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Aplica el 15\PYGZpc{} de descuento.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{0.15}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{DescuentoEstudiante}\PYG{p}{(}\PYG{n}{Descuento}\PYG{p}{):}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Aplica el 20\PYGZpc{} de descuento.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{monto} \PYG{o}{*} \PYG{l+m+mf}{0.20}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{CalculadoraDescuento}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Clase principal cerrada a modificaciones.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{calcular\PYGZus{}total\PYGZus{}descuento}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{tipo\PYGZus{}descuento}\PYG{p}{,} \PYG{n}{monto}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Llama al método \PYGZsq{}calcular\PYGZsq{} del objeto que le mandes}
+        \PYG{k}{return} \PYG{n}{tipo\PYGZus{}descuento}\PYG{o}{.}\PYG{n}{calcular}\PYG{p}{(}\PYG{n}{monto}\PYG{p}{)}
+\end{MintedVerbatim}

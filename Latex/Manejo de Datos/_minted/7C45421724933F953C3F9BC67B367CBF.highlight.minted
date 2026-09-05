@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{cotizar\PYGZus{}prima}\PYG{p}{(}\PYG{n}{monto}\PYG{p}{,} \PYG{n}{factor}\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} Calcula la prima multiplicando monto por factor y dividiendo entre mil}
+    \PYG{c+c1}{\PYGZsh{} Regresa un numero flotante}
+    \PYG{k}{return} \PYG{p}{(}\PYG{n}{monto} \PYG{o}{*} \PYG{n}{factor}\PYG{p}{)} \PYG{o}{/} \PYG{l+m+mi}{1000}
+
+\end{MintedVerbatim}

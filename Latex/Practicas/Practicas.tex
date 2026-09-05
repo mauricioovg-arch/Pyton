@@ -1,0 +1,155 @@
+\documentclass[spanish,12pt,a4paper]{book}% Preambulo
+
+%Todos los comandos de Latex se escriben en \ ya que es el simbolo de comandos
+%Dentro del comando \documentclass[]{} posemos agregar 
+%[Aqui podemos agregar condiciones adicionales de la libreria]
+%{El tipo de documento que queremos generar}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{babel}
+\geometry{letterpaper,margin=1.5cm}
+
+
+\begin {document}% Cuerpo del documento
+\title{Primeros pasos}
+
+{\Large Hablemos de la funcion ''usepackege''}\\\\
+\begin{enumerate}
+\item \textbf{{Paquetes}}\\\\
+	 Los paquetes que veremos seran:
+	\begin{itemize}
+		\item modern e inputenc:  {\small (Estos se usan para mejorar el manejo de caracteres especiales o para que se pueda copiar y pegar texto correctamente del pdf generado)}
+		\item babel:\  {\small (Este es un diccionario que advierte al documento que idioma usaras al escribir)}
+		\item mathtools:\  {\small (Ayuda a la escritura matematica)}
+		\item hyperref:\  {\small (Nos ayuda a incluir ligas para en el documento)} 
+		\item biblatex:\  {\small (Para administrar la bibliografia)}
+		\item tiks:\  {\small (Para agregar todo tipo de ilustraciones)}
+	\end{itemize}
+
+\item \textbf{{Portada}}\\\\
+	Los siguientes son comandos que afectaran al incio de la portada:\label{Tomamos el capitulo o en este caso el item}\\\\
+	\textbackslash title\\ \textbackslash author\\ \textbackslash date 
+
+\item\textbf{{Texto}}\\\\
+	Los saltos de linea se pueden hacer con el comando:\\\\
+	\textbackslash \textbackslash \\
+	\textbackslash newline\\
+	\\
+	Los saltos de pagina se dan por:\\\\
+	\textbackslash newpage\\
+	\textbackslash pagebreak (Aqui solicitamos un salto de pagina)\\
+	\\
+	Cuando nos interesa meter distintos tipos de letras ocuparemos :\\
+	\\
+	\textbackslash textit (cursivas)
+	\\
+	\textbackslash textbf (negritas)
+	\\
+	\textbackslash textsc (versalilla)
+	\\	
+	\textsc{Esta es la versalilla}
+	\\
+	\\
+	\newpage
+	Los comandos mas comunes para cambiar el tamaño de letra son:
+	\\\\
+	\textbackslash tiny\\\textbackslash scriptsize\\\textbackslash small\\ \textbackslash normalisize\\ \textbackslash huge\\ \textbackslash Huge
+\item \textbf{Listas :}\\
+	Los comandos de listas se hacen generando un inicio begin y su final end, existen dos tipos.
+	\begin{itemize}
+		\item \textbackslash itemize
+	\end{itemize}
+	\begin{enumerate}
+		\item \textbackslash enumerate (se generan letras ya que usamos para todo el texto un enumerate)
+	\end{enumerate}
+\item \textbf{Imagenes}
+	Si deseamos integrar imagenes usaremos carpetas incluidas de tal forma que el archivo tenga
+	\begin{enumerate}
+		\item Carpeta con las imagenes a incluir
+		\item El documento del texto
+		\item El auxiliar del documento
+	\end{enumerate}
+	Es necesario que en el preambulo agreguemos el userpage 'graphicx', de esta forma podremos agregar imagenes usando el comando 'includegraphicx'\\
+	Existe el entorno 'figure' y el comando titulo 'caption' con el que podremos agregar un titulo a la figura por ejemplo:
+	\begin{itemize}
+		\item \textbackslash begin \{figure\} $\left[ h \right]$ 
+		\item \textbackslash centering
+		\item \textbackslash includegraphics [width = 0.4 \textbackslash textwidth]\{Nombre de la carpeta / Nombre de la foto .jpg\} 
+		\item \textbackslash caption \{Texto de la figura\}
+		\item \textbackslash label \{Ver marcador del pdf\}
+		\item \textbackslash end \{figure\}
+	\end{itemize}
+	En los corchetes de figure te indica donde quieres poner la foto:\\
+	\textbf{h}(here), \textbf{t}(arriba), \textbf{b}(abajo) o \textbf{p}(para juntar las imagenes en una pagina)
+	\\ Para ajustar altura usamos \textbf{'height'} y ancho \textbf{'width'}\\
+	Para escalar usaremos \textbf{'scale' } donde usaremos la escala y sus grados\\\\
+	Para imagenes a un lado del texto usaremos el paquete \textbf{''wrapfig''}, esto bajo el entorno\\
+	 \textbf{''wrapfigure''}:
+	\begin{itemize}
+		\item \textbackslash begin \{wrapfigure\}\{Lado\}\{Porcentage del tamaño\textbf{\textbackslash textwidth}\}
+		\item \textbackslash includegraphics \{{Ancho \textbackslash textwidth}\}\{Foto\}
+		\item \textbackslash end \{wrapfigure\}
+	\end{itemize}
+\newpage
+\item \textbf{Hipertextos}\\\\
+	Es normal querer hacer mencion o citar cosa dentro del mismo documento para eso usaremos los hipertextos y etiquetas:
+	\\\\
+	Usaremos la paqueteria\textbf{ \textbackslash usepackage 'hyperreg'}y con el comando \textbf{\textbackslash label 'nombre-enlace'} definiremos el nombre del enlace dentro del documento al cual se podra hacer referencia posteriormente mediante\textbf{ \textbackslash ref}
+	\\\\Añadire al documento dicha libreria y referenciare cualquier cosa para verla aqui:\ref{Tomamos el capitulo o en este caso el item}	\\\\
+	Tambien se puede hacer referencia de una figura o tabla, si se desea agregar URL ent usaremos los comandos \textbf{\textbackslash url} o si se desea poner un texto alternativo se usara el comando \textbf{\textbackslash href}
+	\\\\
+\item \textbf{Texto matematico} 
+	\begin{itemize}
+		\item \$ \$ si solo deseamo agregar texto matematico
+		\item \$\$ \$\$ si se desea agregar texto centrado matematico
+	\end{itemize}
+	Para generar ecuaciones numeradad utilizaremos el entorno ' equation ' de la siguiengte forma:
+	\begin{itemize}	
+	\item \textbackslash begin equation
+	\item La ecuacion que deseamos poner
+	\item \textbackslash end equation
+	\end{itemize}	
+	Para generar letras de conjuntos del campo usaremos la paqueteria \textbf{\textbackslash usepackage\{amssymb\}}\\
+	Para generar funciones usaremos:\\\\
+	 T:\textbf{\textbackslash mathbb\{R\}2\textbackslash longmapsto\textbackslash mathbb\{R\}2} = $(T:\mathbb{R}^2\longmapsto\mathbb{R}^2)$
+\item \textbf{Tablas}\\\\
+	Generalmente las tablas se hacen mediante los entornos ' table ' y 'tabular':
+	\begin{itemize}
+		\item \textbackslash begin \{table\}
+		\item centering (para centrar el texto de la tabla)
+		\item \textbackslash begin \{tabular\} \{Izquierda Centro Derecha\} Se puede agregar $ |c|$ para rectas verticales
+		\item Si queremos ponerle una linea en toda la tabla de manera horizontal usamos \textbf{\textbackslash hline}
+		\item \textbackslash end \{tabular\}
+		\item \textbackslash end \{table\}
+	\end{itemize}
+	Usalmente las tablas no siempre generan el mejor tamñao por lo que usaremos algunos paquetes para ello\\
+	El paquete graphicx incluye el comando \textbf{\textbackslash 'resizebox'} , el cual nos sirve en el entorno \textbf{'table'} y asigna un tamaño especifico
+	\\
+\newpage
+\item \textbf{Listas de figuras y tablas}\\\\
+	Se puede obtener fácilmente las listas de figuras y tablas en el documento con los comandos \textbf{\textbackslash listoffigures} y \textbf{\textbackslash listoftables} respectivamente\\
+\item \textbf{Bibliografia}\\\\
+ 	Existen dos tipo de entornos para citar en Latex:\\
+	\begin{enumerate}
+ 		\item thebibilography\\
+ 		Este sirve para generar referencias utilizadas  y citarlas en el texto. Este entorno generalmente se localiza al final del texto, en la seccióm hecha especialmente para la bibliografia y este es su esqueleto:\\
+ 		\begin{itemize}
+ 			\item \textbackslash begin \{thebibliography\}{Aqui el numero max de citas a poner}
+ 			\item \textbackslash begin \{El nombre que le pondremos a la cita\} Seguido la bibliografia \textbf{(No acepta el formato APA)}
+ 			\item (Podemos poner una cantidad finita a la cantidad de citas que pusimos en el entorno)
+ 			\item  \textbackslash end \{thebibliography\}
+ 		\end{itemize}
+ 		Para citar en el texto usaremos el comando \textbf{\textbackslash cite \{Aqui el nombre unico que se le puso a la cita\}}
+ 		\item Bibtex
+    	\\Para la forma de citar con este entorno revisar el marcador del Pdf
+ 	\end{enumerate}
+\item \textbf{Tamaño del documento}\\\\
+	Para cambiar el tamaño del documento ocuparemos la paqueteria \textbf{\textbackslash geometry} y el comando \textbf{\textbackslash geometry \{Formato del documento, Los margenes (''left'', ''right'', ''top'', ''bottom'') o ''magin'' seguido de los sentimetros\}}, esto en el preambulo\\
+	Lo pondremos en el formato \textbf{letterpaper, margin = 2cm}\\
+\item \textbf{Indice}\\\\
+	Para generar un indice usaremos el comando \textbf{\textbackslash tableofcontens}, esto va en el cuerpo del documento
+
+
+\end{enumerate}
+\end {document}

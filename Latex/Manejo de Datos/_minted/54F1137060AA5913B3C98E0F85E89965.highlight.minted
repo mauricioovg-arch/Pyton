@@ -1,0 +1,20 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{ServicioSMS}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Detalle de bajo nivel: envío mediante mensajes SMS.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{enviar\PYGZus{}sms}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{mensaje}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Enviando SMS al teléfono: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{mensaje}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{GestorNotificaciones}\PYG{p}{:}
+\PYG{+w}{    }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Módulo de alto nivel: orquesta las alertas del sistema.\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} ERROR: Se acopla rígidamente a una herramienta concreta}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{servicio} \PYG{o}{=} \PYG{n}{ServicioSMS}\PYG{p}{()}
+
+    \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{notificar\PYGZus{}usuario}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{texto}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{servicio}\PYG{o}{.}\PYG{n}{enviar\PYGZus{}sms}\PYG{p}{(}\PYG{n}{texto}\PYG{p}{)}
+
+\end{MintedVerbatim}
