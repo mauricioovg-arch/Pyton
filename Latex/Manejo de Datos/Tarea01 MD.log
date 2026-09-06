@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.15)  4 SEP 2026 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.15)  4 SEP 2026 18:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -299,172 +299,172 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 [1
 
 {C:/Users/alexi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 35--41
+Underfull \hbox (badness 10000) in paragraph at lines 32--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
 \pydata@fh@0=\write4
 \openout4 = `_40B7C549DD7F9FD5D66D08440161217D.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260904181530 40B7C549DD7F9FD5D66D08440161217D)...executed.
+runsystem(latexminted config  --timestamp 20260904184247 40B7C549DD7F9FD5D66D08440161217D)...executed.
 
 (_40B7C549DD7F9FD5D66D08440161217D.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260904181530 40B7C549DD7F9FD5D66D08440161217D)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20260904184247 40B7C549DD7F9FD5D66D08440161217D)...executed.
 
  (_minted/default.style.minted) (_minted/2FD14D5F609BA84425AF5363C355ECD3.highlight.minted
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
 ) (_minted/35115D3985BD8850296C81362B0994D8.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 69--72
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
 (_minted/54D4B51468DEAC215DC99351A5B2C368.highlight.minted) (_minted/0EABDCF5F34211D1EF49FC8E2879C42A.highlight.minted) [1]
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 (_minted/052B71D63851E0480DCCC5E973055AE6.highlight.minted) (_minted/45AC1D179F6BDF68B2043BBCD53C0458.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 (_minted/5DD1BE6B7B3768F7301EA972E619D31C.highlight.minted) (_minted/8016399312C946E24D453B9C0ED30E80.highlight.minted) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 (_minted/A3E84DE087973C683B33511FBF632BB4.highlight.minted) (_minted/94C9DD662F096FB8DB2DD2CD412248E6.highlight.minted)
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 177.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 177.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 174.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 174.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 177.
+(Font)              for symbol `textbackslash' on input line 174.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--178
+Underfull \hbox (badness 10000) in paragraph at lines 170--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--178
+Underfull \hbox (badness 10000) in paragraph at lines 170--175
 
  []
 
 (_minted/CF93619D90B695F2F62A1FAE8CED13C1.highlight.minted) (_minted/816A3F9C02458D272C91D6959F82E221.highlight.minted) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
 (_minted/E48005671F42A4632E4285F4C5DBB78A.highlight.minted) (_minted/D0E054F320626D57A7BB970E8FD64489.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 232--237
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--237
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
 
  []
 
 (_minted/BA4BB7A038F37E147058233B19CB19F5.highlight.minted) (_minted/9FDD9BB4EA5D0584166FE31FEC799E28.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 270--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 
  []
 
 [4] (_minted/7C45421724933F953C3F9BC67B367CBF.highlight.minted) (_minted/00C5BC6014A887B820AC3C395DEBBAAB.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 299--302
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--302
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
 (_minted/65331B0525E7EA13728B7F60FC585E49.highlight.minted) (_minted/1D7ABBED303472759B90D08F4700B742.highlight.minted) [5]
-Underfull \hbox (badness 10000) in paragraph at lines 335--338
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 
  []
 
 (_minted/20C4ACA5C70B401AD07A23294C55EBA4.highlight.minted) (_minted/AE5D5EE31678B900E8E68671313F6915.highlight.minted) [6]
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
 
  []
 
 (_minted/F83BB7D15F6414231CBDCA1DFBE6D097.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 (_minted/F923B0E2826AD5BECF5F3F3A4DE63DC8.highlight.minted) [7]
-Underfull \hbox (badness 10000) in paragraph at lines 443--445
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
 
  []
 
 (_minted/34431D9E0E06C05D2395E646247C855D.highlight.minted) (_minted/23A58E733D23A30A6D1F501C08BC4AF7.highlight.minted
-Underfull \hbox (badness 10000) in paragraph at lines 471--1
+Underfull \hbox (badness 10000) in paragraph at lines 468--1
 
  []
 
 ) [8]
-Underfull \hbox (badness 10000) in paragraph at lines 513--516
+Underfull \hbox (badness 10000) in paragraph at lines 510--513
 
  []
 
 (_minted/02FE9F18213D9D5FE2600A965DA2B3B8.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 549--551
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--551
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
 
 (_minted/EAB33E3FAC275A2C31D8B83DC40A3846.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
 [9] (_minted/54F1137060AA5913B3C98E0F85E89965.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 608--613
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--613
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
@@ -490,7 +490,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  86i,8n,93p,517b,749s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alexi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "Tarea01 MD.pdf" (12 pages, 173004 bytes).
+Output written on "Tarea01 MD.pdf" (12 pages, 173010 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
