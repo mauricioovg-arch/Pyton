@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.15)  4 SEP 2026 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.15)  7 SEP 2026 20:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -316,10 +316,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 \pydata@fh@0=\write4
 \openout4 = `_40B7C549DD7F9FD5D66D08440161217D.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260904184247 40B7C549DD7F9FD5D66D08440161217D)...executed.
+runsystem(latexminted config  --timestamp 20260907200006 40B7C549DD7F9FD5D66D08440161217D)...executed.
 
 (_40B7C549DD7F9FD5D66D08440161217D.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260904184247 40B7C549DD7F9FD5D66D08440161217D)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20260907200006 40B7C549DD7F9FD5D66D08440161217D)...executed.
 
  (_minted/default.style.minted) (_minted/2FD14D5F609BA84425AF5363C355ECD3.highlight.minted
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
@@ -468,7 +468,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
-(_minted/53FCDA5B76E96F423A41DECDF8BC2EBC.highlight.minted) [10] [11] (Tarea01 MD.aux
+(_minted/53FCDA5B76E96F423A41DECDF8BC2EBC.highlight.minted) [10]
+c:/Users/alexi/Desktop/VisualStudio/Latex/Manejo de Datos/Tarea01 MD.tex:653: Undefined control sequence.
+l.653 ...hon Code. Python.org. Disponible en: \url
+                                                  {https://peps.python.org/p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/alexi/Desktop/VisualStudio/Latex/Manejo de Datos/Tarea01 MD.tex:654: Undefined control sequence.
+l.654 ...ventions. Python.org. Disponible en: \url
+                                                  {https://peps.python.org/p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/alexi/Desktop/VisualStudio/Latex/Manejo de Datos/Tarea01 MD.tex:655: Undefined control sequence.
+l.655 ... Python. Real Python. Disponible en: \url
+                                                  {https://realpython.com/so...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/alexi/Desktop/VisualStudio/Latex/Manejo de Datos/Tarea01 MD.tex:656: Undefined control sequence.
+l.656 ...plos reales, escueladeprogramación. \url
+                                                  {https://escueladeprograma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (129.53676pt too wide) in paragraph at lines 656--657
+[]\OT1/cmr/m/n/10 Danish( 28 May 2026), Prin-ci-pios So-lid ex-pli-ca-dos con ejem-plos reales, es-cue-la-de-pro-gra-ma-ci^^Son. https://escueladeprogramacion.net/blog/principios-
+ []
+
+[11] (Tarea01 MD.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 )
@@ -482,15 +524,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9583 strings out of 467871
- 221472 string characters out of 5418376
+ 9586 strings out of 467871
+ 221535 string characters out of 5418376
  763156 words of memory out of 5000000
- 38281 multiletter control sequences out of 15000+600000
+ 38284 multiletter control sequences out of 15000+600000
  632292 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,8n,93p,517b,749s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alexi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/alexi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "Tarea01 MD.pdf" (12 pages, 173010 bytes).
+Output written on "Tarea01 MD.pdf" (12 pages, 174691 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
